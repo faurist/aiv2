@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="hu"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111827"><title>Pista AI V2</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="app">
+<header><div><h1>🤖 Pista AI</h1><small>V2 · Tool ügynök</small></div><select id="provider"><option value="gemini">Gemini</option><option value="groq">Groq</option></select></header>
+<section id="chat"><div class="msg a">Szia! Már eszközöket is tudok használni. Például kereshetek a weben vagy számolhatok.</div></section>
+<div id="status">...</div>
+<form id="form"><textarea id="input" placeholder="Mit csináljak?"></textarea><button>➤</button></form>
+<div class="chips"><button data-q="Keress friss információt az automatika technikus képzésről.">🌐 Web</button><button data-q="Számold ki: 125000 * 0.27">🧮 Számolás</button><button data-q="Készíts egy MySQL feladatot 11. osztályosoknak.">📚 Tanítás</button></div>
+<button id="clear">Beszélgetés törlése</button></main><script src="script.js"></script></body></html>
